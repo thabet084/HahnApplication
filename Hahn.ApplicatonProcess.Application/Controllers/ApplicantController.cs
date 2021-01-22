@@ -11,26 +11,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using Hahn.ApplicatonProcess.Application.ActionFilters;
+using Microsoft.Extensions.Logging;
 
 namespace Hahn.ApplicatonProcess.Application.Controllers
 {
     [Route("Applicant/[action]")]
     [ApiController]
+
     public class ApplicantController : ControllerBase
     {
         private readonly IApplicantService _applicantService;
-        public ApplicantController(IApplicantService applicantService)
+        private readonly ILogger<ApplicantController> _logger;
+        public ApplicantController(IApplicantService applicantService, ILogger<ApplicantController> logger)
         {
             _applicantService = applicantService;
+            _logger = logger;
         }
 
         [HttpPost]
         [SwaggerRequestExample(typeof(ApplicantViewModel), typeof(ApplicantAddModelExample))]
-        
+   
         public async Task<IActionResult> Add(ApplicantViewModel applicantViewModel)
         {
             try
             {
+              
+
                 var validator = new ApplicantValidator();
                 var result = validator.Validate(applicantViewModel);
                 if (!result.IsValid)
@@ -47,7 +54,8 @@ namespace Hahn.ApplicatonProcess.Application.Controllers
             }
             catch(Exception ex)
             {
-                return Ok(); 
+                _logger.LogError(ex.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError);
             }
         }
 

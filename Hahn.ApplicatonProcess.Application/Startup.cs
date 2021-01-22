@@ -9,6 +9,7 @@ using Hahn.ApplicatonProcess.December2020.Services.Classes;
 using Hahn.ApplicatonProcess.December2020.Services.Interfaces;
 using Hahn.ApplicatonProcess.December2020.Shared.Validators;
 using Hahn.ApplicatonProcess.December2020.Shared.ViewModels;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,9 +29,11 @@ namespace Hahn.ApplicatonProcess.Application
 {
     public class Startup
     {
+      
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+        
         }
 
         public IConfiguration Configuration { get; }
@@ -42,6 +45,7 @@ namespace Hahn.ApplicatonProcess.Application
             services.AddControllers();
 
             ConfigureInjection(services);
+          
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -63,6 +67,14 @@ namespace Hahn.ApplicatonProcess.Application
                 
                 
             });
+
+            services.AddLogging(
+    builder =>
+    {
+        builder//.AddFilter("Microsoft", LogLevel.Information)
+               .AddFilter("System", LogLevel.Error)
+               .AddConsole();
+    });
         }
 
         private static void ConfigureInjection(IServiceCollection services)
@@ -70,6 +82,8 @@ namespace Hahn.ApplicatonProcess.Application
             services.AddScoped<IApplicantService, ApplicantService>();
 
             services.AddScoped<IApplicantRepository, ApplicantRepository>();
+
+           
         }
 
             // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -77,6 +91,7 @@ namespace Hahn.ApplicatonProcess.Application
         {
             if (env.IsDevelopment())
             {
+              
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hahn.ApplicatonProcess.Application v1"));
@@ -93,5 +108,7 @@ namespace Hahn.ApplicatonProcess.Application
                 endpoints.MapControllers();
             });
         }
+
+       
     }
 }
