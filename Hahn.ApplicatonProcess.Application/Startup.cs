@@ -61,6 +61,19 @@ namespace Hahn.ApplicatonProcess.Application
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins",
+                    builder =>
+                    {
+                        builder
+                            .AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    });
+            });
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Hahn.ApplicatonProcess.Application", Version = "v1" });
@@ -100,6 +113,7 @@ namespace Hahn.ApplicatonProcess.Application
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors("AllowAllOrigins");
 
             app.UseAuthorization();
 

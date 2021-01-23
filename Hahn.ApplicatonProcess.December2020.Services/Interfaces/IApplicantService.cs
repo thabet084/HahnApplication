@@ -11,6 +11,7 @@ namespace Hahn.ApplicatonProcess.December2020.Services.Interfaces
          Task<(ApplicantViewModel applicantViewModel, string errorMessage)> Add(ApplicantViewModel applicantViewModel);
 
         Task<ApplicantViewModel> Get(int id);
+        Task<List<ApplicantViewModel>> GetAll();
 
         Task<(bool isSuccess, string errorMessage)> Update(int id, ApplicantViewModel applicantViewModel);
 

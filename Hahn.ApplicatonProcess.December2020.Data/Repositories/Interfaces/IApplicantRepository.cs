@@ -11,6 +11,7 @@ namespace Hahn.ApplicatonProcess.December2020.Data.Repositories.Interfaces
         Task<ApplicantViewModel> Add(ApplicantViewModel applicantViewModel);
 
         Task<ApplicantViewModel> Get(int id);
+        Task<List<ApplicantViewModel>> GetAll();
 
         Task<bool> Update(int id, ApplicantViewModel applicantViewModel);
 

@@ -1,0 +1,670 @@
+2021-01-23 22:56:00.330 +02:00 [INF] app starting
+2021-01-23 22:56:08.345 +02:00 [DBG] Hosting starting
+2021-01-23 22:56:08.415 +02:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 22:56:08.448 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-36057287-4e3c-459f-825c-a66c83c66521.xml'.
+2021-01-23 22:56:08.489 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c.xml'.
+2021-01-23 22:56:08.491 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-54057b12-5bce-4603-b3f9-c615ee59598e.xml'.
+2021-01-23 22:56:08.495 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-ac343915-a560-4d9e-a2e9-c4fc0001a16a.xml'.
+2021-01-23 22:56:08.496 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b7405904-8f32-4086-9b37-5451b93f9233.xml'.
+2021-01-23 22:56:08.497 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b83e036b-16ea-48bc-b2ec-c87fcd62bf94.xml'.
+2021-01-23 22:56:08.498 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-bf66ebd7-dedd-4d2d-82a8-fba90ee29d82.xml'.
+2021-01-23 22:56:08.499 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-d7bc6152-621b-4cd2-ba96-06cbf8e4ff45.xml'.
+2021-01-23 22:56:08.508 +02:00 [DBG] Found key "36057287-4e3c-459f-825c-a66c83c66521".
+2021-01-23 22:56:08.523 +02:00 [DBG] Found key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c".
+2021-01-23 22:56:08.523 +02:00 [DBG] Found key "54057b12-5bce-4603-b3f9-c615ee59598e".
+2021-01-23 22:56:08.523 +02:00 [DBG] Found key "ac343915-a560-4d9e-a2e9-c4fc0001a16a".
+2021-01-23 22:56:08.525 +02:00 [DBG] Found key "b7405904-8f32-4086-9b37-5451b93f9233".
+2021-01-23 22:56:08.525 +02:00 [DBG] Found key "b83e036b-16ea-48bc-b2ec-c87fcd62bf94".
+2021-01-23 22:56:08.525 +02:00 [DBG] Found key "bf66ebd7-dedd-4d2d-82a8-fba90ee29d82".
+2021-01-23 22:56:08.525 +02:00 [DBG] Found key "d7bc6152-621b-4cd2-ba96-06cbf8e4ff45".
+2021-01-23 22:56:08.538 +02:00 [DBG] Considering key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" with expiration date "2021-04-19T10:54:21.1621933+00:00" as default key.
+2021-01-23 22:56:08.567 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-23 22:56:08.570 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-23 22:56:08.573 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-23 22:56:08.580 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-23 22:56:08.583 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-23 22:56:08.589 +02:00 [DBG] Using key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" as the default key.
+2021-01-23 22:56:08.591 +02:00 [DBG] Key ring with default key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" was loaded during application startup.
+2021-01-23 22:56:09.246 +02:00 [DBG] Loaded hosting startup assembly Hahn.ApplicatonProcess.Application
+2021-01-23 22:56:09.247 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 22:56:09.248 +02:00 [INF] Hosting environment: Development
+2021-01-23 22:56:09.248 +02:00 [INF] Content root path: D:\DevOps\SourceCode\HahnApplication\Hahn.ApplicatonProcess.Application
+2021-01-23 22:56:09.248 +02:00 [DBG] Hosting started
+2021-01-23 22:56:09.326 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger/index.html - -
+2021-01-23 22:56:09.331 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-23 22:56:09.537 +02:00 [DBG] Connection ID "18374686507052040205" disconnecting.
+2021-01-23 22:56:09.566 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger/index.html - - - 200 - text/html;charset=utf-8 243.4362ms
+2021-01-23 22:56:09.912 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 22:56:09.916 +02:00 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2021-01-23 22:56:09.936 +02:00 [DBG] Initializing Razor view compiler with no compiled views.
+2021-01-23 22:56:09.981 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2021-01-23 22:56:09.981 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 22:56:09.991 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-bundle.js.map - - - 404 - - 79.2965ms
+2021-01-23 22:56:10.110 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 22:56:10.110 +02:00 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2021-01-23 22:56:10.110 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2021-01-23 22:56:10.110 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 22:56:10.112 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.9820ms
+2021-01-23 22:56:10.213 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger/v1/swagger.json - -
+2021-01-23 22:56:10.392 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.7558ms
+2021-01-23 22:56:10.392 +02:00 [DBG] Connection ID "18374686502757072907" disconnecting.
+2021-01-23 22:57:16.052 +02:00 [INF] app starting
+2021-01-23 22:57:18.352 +02:00 [DBG] Hosting starting
+2021-01-23 22:57:18.415 +02:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 22:57:18.436 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-36057287-4e3c-459f-825c-a66c83c66521.xml'.
+2021-01-23 22:57:18.464 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c.xml'.
+2021-01-23 22:57:18.464 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-54057b12-5bce-4603-b3f9-c615ee59598e.xml'.
+2021-01-23 22:57:18.464 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-ac343915-a560-4d9e-a2e9-c4fc0001a16a.xml'.
+2021-01-23 22:57:18.465 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b7405904-8f32-4086-9b37-5451b93f9233.xml'.
+2021-01-23 22:57:18.465 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b83e036b-16ea-48bc-b2ec-c87fcd62bf94.xml'.
+2021-01-23 22:57:18.465 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-bf66ebd7-dedd-4d2d-82a8-fba90ee29d82.xml'.
+2021-01-23 22:57:18.465 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-d7bc6152-621b-4cd2-ba96-06cbf8e4ff45.xml'.
+2021-01-23 22:57:18.471 +02:00 [DBG] Found key "36057287-4e3c-459f-825c-a66c83c66521".
+2021-01-23 22:57:18.482 +02:00 [DBG] Found key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c".
+2021-01-23 22:57:18.482 +02:00 [DBG] Found key "54057b12-5bce-4603-b3f9-c615ee59598e".
+2021-01-23 22:57:18.482 +02:00 [DBG] Found key "ac343915-a560-4d9e-a2e9-c4fc0001a16a".
+2021-01-23 22:57:18.483 +02:00 [DBG] Found key "b7405904-8f32-4086-9b37-5451b93f9233".
+2021-01-23 22:57:18.483 +02:00 [DBG] Found key "b83e036b-16ea-48bc-b2ec-c87fcd62bf94".
+2021-01-23 22:57:18.483 +02:00 [DBG] Found key "bf66ebd7-dedd-4d2d-82a8-fba90ee29d82".
+2021-01-23 22:57:18.484 +02:00 [DBG] Found key "d7bc6152-621b-4cd2-ba96-06cbf8e4ff45".
+2021-01-23 22:57:18.493 +02:00 [DBG] Considering key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" with expiration date "2021-04-19T10:54:21.1621933+00:00" as default key.
+2021-01-23 22:57:18.506 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-23 22:57:18.508 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-23 22:57:18.510 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-23 22:57:18.516 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-23 22:57:18.519 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-23 22:57:18.524 +02:00 [DBG] Using key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" as the default key.
+2021-01-23 22:57:18.525 +02:00 [DBG] Key ring with default key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" was loaded during application startup.
+2021-01-23 22:57:18.746 +02:00 [DBG] Loaded hosting startup assembly Hahn.ApplicatonProcess.Application
+2021-01-23 22:57:18.746 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 22:57:18.746 +02:00 [INF] Hosting environment: Development
+2021-01-23 22:57:18.746 +02:00 [INF] Content root path: D:\DevOps\SourceCode\HahnApplication\Hahn.ApplicatonProcess.Application
+2021-01-23 22:57:18.746 +02:00 [DBG] Hosting started
+2021-01-23 22:57:18.806 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger/index.html - -
+2021-01-23 22:57:18.808 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-23 22:57:18.962 +02:00 [DBG] Connection ID "18230571306091282435" disconnecting.
+2021-01-23 22:57:18.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger/index.html - - - 200 - text/html;charset=utf-8 173.5788ms
+2021-01-23 22:57:19.168 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 22:57:19.171 +02:00 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2021-01-23 22:57:19.179 +02:00 [DBG] Initializing Razor view compiler with no compiled views.
+2021-01-23 22:57:19.206 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2021-01-23 22:57:19.206 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 22:57:19.208 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-bundle.js.map - - - 404 - - 40.6683ms
+2021-01-23 22:57:19.296 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 22:57:19.296 +02:00 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2021-01-23 22:57:19.297 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2021-01-23 22:57:19.297 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 22:57:19.298 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.5656ms
+2021-01-23 22:57:19.355 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger/v1/swagger.json - -
+2021-01-23 22:57:19.509 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.3254ms
+2021-01-23 22:57:19.509 +02:00 [DBG] Connection ID "18230571306091282437" disconnecting.
+2021-01-23 22:57:32.014 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:44355/Applicant/Add application/json 184
+2021-01-23 22:57:32.014 +02:00 [DBG] POST requests are not supported
+2021-01-23 22:57:32.023 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 22:57:32.028 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/Add' is valid for the request path '/Applicant/Add'
+2021-01-23 22:57:32.029 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 22:57:32.030 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 22:57:32.042 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-23 22:57:32.109 +02:00 [INF] Route matched with {action = "Add", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel) on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 22:57:32.111 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 22:57:32.111 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 22:57:32.111 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 22:57:32.111 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 22:57:32.111 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 22:57:32.118 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 22:57:32.430 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-23 22:57:32.705 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 22:57:32.712 +02:00 [DBG] Attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' ...
+2021-01-23 22:57:32.714 +02:00 [DBG] Attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' using the name '' in request data ...
+2021-01-23 22:57:32.715 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-01-23 22:57:32.726 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'
+2021-01-23 22:57:32.727 +02:00 [DBG] Done attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 22:57:32.727 +02:00 [DBG] Done attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 22:57:32.727 +02:00 [DBG] Attempting to validate the bound parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' ...
+2021-01-23 22:57:32.749 +02:00 [DBG] Done attempting to validate the bound parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 22:57:32.874 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 22:57:36.863 +02:00 [ERR] One or more errors occurred. (No such host is known. (restcountries.eu:443))
+2021-01-23 22:57:36.868 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 3988.9731ms.
+2021-01-23 22:57:36.871 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 22:57:36.873 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 22:57:36.873 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2021-01-23 22:57:36.874 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2021-01-23 22:57:36.874 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-23 22:57:36.903 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application) in 4787.3563ms
+2021-01-23 22:57:36.903 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 22:57:36.905 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:44355/Applicant/Add application/json 184 - 500 - application/problem+json;+charset=utf-8 4891.1052ms
+2021-01-23 23:31:03.733 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44355/Applicant/Add - -
+2021-01-23 23:31:03.745 +02:00 [DBG] OPTIONS requests are not supported
+2021-01-23 23:31:03.746 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 23:31:03.746 +02:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:31:03.746 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:31:03.746 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:31:03.748 +02:00 [DBG] Connection ID "18374686502757072911" disconnecting.
+2021-01-23 23:31:03.749 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44355/Applicant/Add - - - 405 - - 15.5792ms
+2021-01-23 23:31:26.484 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/Applicant/Add - -
+2021-01-23 23:31:26.485 +02:00 [DBG] The request path  does not match the path filter
+2021-01-23 23:31:26.485 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 23:31:26.485 +02:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:31:26.498 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:31:26.498 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:31:26.500 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/Applicant/Add - - - 405 - - 15.1211ms
+2021-01-23 23:31:26.511 +02:00 [DBG] Connection ID "18230571301796315147" disconnecting.
+2021-01-23 23:32:33.491 +02:00 [INF] app starting
+2021-01-23 23:32:36.255 +02:00 [DBG] Hosting starting
+2021-01-23 23:32:36.303 +02:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 23:32:36.320 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-36057287-4e3c-459f-825c-a66c83c66521.xml'.
+2021-01-23 23:32:36.345 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c.xml'.
+2021-01-23 23:32:36.345 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-54057b12-5bce-4603-b3f9-c615ee59598e.xml'.
+2021-01-23 23:32:36.346 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-ac343915-a560-4d9e-a2e9-c4fc0001a16a.xml'.
+2021-01-23 23:32:36.346 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b7405904-8f32-4086-9b37-5451b93f9233.xml'.
+2021-01-23 23:32:36.346 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b83e036b-16ea-48bc-b2ec-c87fcd62bf94.xml'.
+2021-01-23 23:32:36.346 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-bf66ebd7-dedd-4d2d-82a8-fba90ee29d82.xml'.
+2021-01-23 23:32:36.346 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-d7bc6152-621b-4cd2-ba96-06cbf8e4ff45.xml'.
+2021-01-23 23:32:36.352 +02:00 [DBG] Found key "36057287-4e3c-459f-825c-a66c83c66521".
+2021-01-23 23:32:36.360 +02:00 [DBG] Found key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c".
+2021-01-23 23:32:36.360 +02:00 [DBG] Found key "54057b12-5bce-4603-b3f9-c615ee59598e".
+2021-01-23 23:32:36.360 +02:00 [DBG] Found key "ac343915-a560-4d9e-a2e9-c4fc0001a16a".
+2021-01-23 23:32:36.361 +02:00 [DBG] Found key "b7405904-8f32-4086-9b37-5451b93f9233".
+2021-01-23 23:32:36.361 +02:00 [DBG] Found key "b83e036b-16ea-48bc-b2ec-c87fcd62bf94".
+2021-01-23 23:32:36.361 +02:00 [DBG] Found key "bf66ebd7-dedd-4d2d-82a8-fba90ee29d82".
+2021-01-23 23:32:36.361 +02:00 [DBG] Found key "d7bc6152-621b-4cd2-ba96-06cbf8e4ff45".
+2021-01-23 23:32:36.371 +02:00 [DBG] Considering key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" with expiration date "2021-04-19T10:54:21.1621933+00:00" as default key.
+2021-01-23 23:32:36.383 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-23 23:32:36.385 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-23 23:32:36.387 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-23 23:32:36.391 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-23 23:32:36.394 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-23 23:32:36.397 +02:00 [DBG] Using key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" as the default key.
+2021-01-23 23:32:36.398 +02:00 [DBG] Key ring with default key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" was loaded during application startup.
+2021-01-23 23:32:36.602 +02:00 [DBG] Loaded hosting startup assembly Hahn.ApplicatonProcess.Application
+2021-01-23 23:32:36.603 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 23:32:36.603 +02:00 [INF] Hosting environment: Development
+2021-01-23 23:32:36.603 +02:00 [INF] Content root path: D:\DevOps\SourceCode\HahnApplication\Hahn.ApplicatonProcess.Application
+2021-01-23 23:32:36.603 +02:00 [DBG] Hosting started
+2021-01-23 23:32:36.661 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger - -
+2021-01-23 23:32:36.663 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-23 23:32:36.702 +02:00 [DBG] Connection ID "18086456113720459265" disconnecting.
+2021-01-23 23:32:36.717 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger/index.html - -
+2021-01-23 23:32:36.849 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger - - - 301 - - 190.6147ms
+2021-01-23 23:32:36.924 +02:00 [DBG] Connection ID "18374686494167138311" disconnecting.
+2021-01-23 23:32:36.924 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger/index.html - - - 200 - text/html;charset=utf-8 208.1305ms
+2021-01-23 23:32:37.119 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 23:32:37.121 +02:00 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2021-01-23 23:32:37.128 +02:00 [DBG] Initializing Razor view compiler with no compiled views.
+2021-01-23 23:32:37.162 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2021-01-23 23:32:37.162 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 23:32:37.165 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-bundle.js.map - - - 404 - - 45.6778ms
+2021-01-23 23:32:37.243 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 23:32:37.244 +02:00 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2021-01-23 23:32:37.244 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2021-01-23 23:32:37.244 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 23:32:37.245 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.5818ms
+2021-01-23 23:32:37.303 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger/v1/swagger.json - -
+2021-01-23 23:32:37.445 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.2272ms
+2021-01-23 23:32:37.445 +02:00 [DBG] Connection ID "18158513716348321813" disconnecting.
+2021-01-23 23:32:37.547 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44355/Applicant/Add - -
+2021-01-23 23:32:37.548 +02:00 [DBG] OPTIONS requests are not supported
+2021-01-23 23:32:37.556 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 23:32:37.558 +02:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:32:37.562 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:32:37.562 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:32:37.563 +02:00 [DBG] The request is a preflight request.
+2021-01-23 23:32:37.564 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44355/Applicant/Add - - - 204 - - 16.8835ms
+2021-01-23 23:32:37.565 +02:00 [DBG] Connection ID "18158513716348321815" disconnecting.
+2021-01-23 23:32:37.568 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44355/Applicant/Add application/json 154
+2021-01-23 23:32:37.568 +02:00 [DBG] POST requests are not supported
+2021-01-23 23:32:37.568 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 23:32:37.573 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/Add' is valid for the request path '/Applicant/Add'
+2021-01-23 23:32:37.573 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:32:37.573 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:32:37.573 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:32:37.574 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:32:37.587 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-23 23:32:37.643 +02:00 [INF] Route matched with {action = "Add", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel) on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:32:37.644 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:32:37.644 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:32:37.644 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:32:37.644 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:32:37.644 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:32:37.645 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:32:37.772 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-23 23:32:38.009 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:32:38.016 +02:00 [DBG] Attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' ...
+2021-01-23 23:32:38.018 +02:00 [DBG] Attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' using the name '' in request data ...
+2021-01-23 23:32:38.019 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-01-23 23:32:38.028 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'
+2021-01-23 23:32:38.029 +02:00 [DBG] Done attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:32:38.029 +02:00 [DBG] Done attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:32:38.029 +02:00 [DBG] Attempting to validate the bound parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' ...
+2021-01-23 23:32:38.048 +02:00 [DBG] Done attempting to validate the bound parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:32:38.136 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 23:32:49.828 +02:00 [ERR] One or more errors occurred. (No such host is known. (restcountries.eu:443))
+2021-01-23 23:32:49.833 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 11691.7437ms.
+2021-01-23 23:32:49.836 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 23:32:49.837 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 23:32:49.838 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2021-01-23 23:32:49.839 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2021-01-23 23:32:49.839 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-23 23:32:49.857 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application) in 12206.7763ms
+2021-01-23 23:32:49.857 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:32:49.858 +02:00 [DBG] Connection ID "18374686511347007497" disconnecting.
+2021-01-23 23:32:49.860 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44355/Applicant/Add application/json 154 - 500 - application/problem+json;+charset=utf-8 12291.9400ms
+2021-01-23 23:45:31.995 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/api/Applicants - -
+2021-01-23 23:45:31.995 +02:00 [DBG] The request path  does not match the path filter
+2021-01-23 23:45:31.995 +02:00 [DBG] No candidates found for the request path '/api/Applicants'
+2021-01-23 23:45:31.996 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 23:45:31.996 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:45:31.996 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:45:32.008 +02:00 [DBG] Connection ID "18158513716348321819" disconnecting.
+2021-01-23 23:45:32.008 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/api/Applicants - - - 404 - - 17.9944ms
+2021-01-23 23:52:27.767 +02:00 [INF] app starting
+2021-01-23 23:52:31.064 +02:00 [DBG] Hosting starting
+2021-01-23 23:52:31.131 +02:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-23 23:52:31.150 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-36057287-4e3c-459f-825c-a66c83c66521.xml'.
+2021-01-23 23:52:31.179 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c.xml'.
+2021-01-23 23:52:31.180 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-54057b12-5bce-4603-b3f9-c615ee59598e.xml'.
+2021-01-23 23:52:31.180 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-ac343915-a560-4d9e-a2e9-c4fc0001a16a.xml'.
+2021-01-23 23:52:31.180 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b7405904-8f32-4086-9b37-5451b93f9233.xml'.
+2021-01-23 23:52:31.181 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-b83e036b-16ea-48bc-b2ec-c87fcd62bf94.xml'.
+2021-01-23 23:52:31.181 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-bf66ebd7-dedd-4d2d-82a8-fba90ee29d82.xml'.
+2021-01-23 23:52:31.181 +02:00 [DBG] Reading data from file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-d7bc6152-621b-4cd2-ba96-06cbf8e4ff45.xml'.
+2021-01-23 23:52:31.187 +02:00 [DBG] Found key "36057287-4e3c-459f-825c-a66c83c66521".
+2021-01-23 23:52:31.199 +02:00 [DBG] Found key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c".
+2021-01-23 23:52:31.199 +02:00 [DBG] Found key "54057b12-5bce-4603-b3f9-c615ee59598e".
+2021-01-23 23:52:31.199 +02:00 [DBG] Found key "ac343915-a560-4d9e-a2e9-c4fc0001a16a".
+2021-01-23 23:52:31.200 +02:00 [DBG] Found key "b7405904-8f32-4086-9b37-5451b93f9233".
+2021-01-23 23:52:31.200 +02:00 [DBG] Found key "b83e036b-16ea-48bc-b2ec-c87fcd62bf94".
+2021-01-23 23:52:31.200 +02:00 [DBG] Found key "bf66ebd7-dedd-4d2d-82a8-fba90ee29d82".
+2021-01-23 23:52:31.201 +02:00 [DBG] Found key "d7bc6152-621b-4cd2-ba96-06cbf8e4ff45".
+2021-01-23 23:52:31.215 +02:00 [DBG] Considering key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" with expiration date "2021-04-19T10:54:21.1621933+00:00" as default key.
+2021-01-23 23:52:31.233 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-23 23:52:31.236 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-01-23 23:52:31.238 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-01-23 23:52:31.243 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-01-23 23:52:31.246 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-01-23 23:52:31.249 +02:00 [DBG] Using key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" as the default key.
+2021-01-23 23:52:31.250 +02:00 [DBG] Key ring with default key "4d03b9c1-3270-4bb2-87ad-68edd3b2fb4c" was loaded during application startup.
+2021-01-23 23:52:31.523 +02:00 [DBG] Loaded hosting startup assembly Hahn.ApplicatonProcess.Application
+2021-01-23 23:52:31.523 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-23 23:52:31.524 +02:00 [INF] Hosting environment: Development
+2021-01-23 23:52:31.524 +02:00 [INF] Content root path: D:\DevOps\SourceCode\HahnApplication\Hahn.ApplicatonProcess.Application
+2021-01-23 23:52:31.524 +02:00 [DBG] Hosting started
+2021-01-23 23:52:31.614 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/Applicant/GetAll - -
+2021-01-23 23:52:31.614 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger/index.html - -
+2021-01-23 23:52:31.617 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-23 23:52:31.617 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-01-23 23:52:31.659 +02:00 [DBG] The request path  does not match the path filter
+2021-01-23 23:52:31.669 +02:00 [DBG] Initializing Razor view compiler with no compiled views.
+2021-01-23 23:52:31.710 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/GetAll'
+2021-01-23 23:52:31.715 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/GetAll' is valid for the request path '/Applicant/GetAll'
+2021-01-23 23:52:31.716 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:52:31.719 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:52:31.732 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-01-23 23:52:31.782 +02:00 [DBG] Connection ID "18158513716348321821" disconnecting.
+2021-01-23 23:52:31.791 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger/index.html - - - 200 - text/html;charset=utf-8 179.1593ms
+2021-01-23 23:52:31.827 +02:00 [INF] Route matched with {action = "GetAll", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel]] GetAll() on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:52:31.828 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:52:31.828 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:52:31.828 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:52:31.828 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:52:31.828 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:52:31.830 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:52:32.000 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-bundle.js.map - -
+2021-01-23 23:52:32.002 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-01-23 23:52:32.003 +02:00 [DBG] The request path /swagger-ui-bundle.js.map does not match an existing file
+2021-01-23 23:52:32.003 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js.map'
+2021-01-23 23:52:32.003 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 23:52:32.006 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-bundle.js.map - - - 404 - - 5.4761ms
+2021-01-23 23:52:32.087 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-standalone-preset.js.map - -
+2021-01-23 23:52:32.087 +02:00 [DBG] The request path /swagger-ui-standalone-preset.js.map does not match an existing file
+2021-01-23 23:52:32.087 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js.map'
+2021-01-23 23:52:32.087 +02:00 [DBG] Request did not match any endpoints
+2021-01-23 23:52:32.088 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.5403ms
+2021-01-23 23:52:32.158 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/swagger/v1/swagger.json - -
+2021-01-23 23:52:32.309 +02:00 [DBG] Connection ID "18374686511347007499" disconnecting.
+2021-01-23 23:52:32.311 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 152.4350ms
+2021-01-23 23:52:32.359 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:52:32.503 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 23:52:33.300 +02:00 [INF] Entity Framework Core 5.0.2 initialized 'HahnDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-23 23:52:33.401 +02:00 [DBG] Compiling query expression: 
+'DbSet<Applicant>()'
+2021-01-23 23:52:33.630 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Applicant>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Applicant.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Applicant.Address (string), 1], [Property: Applicant.Age (int) Required, 2], [Property: Applicant.CountryOfOrigin (string), 3], [Property: Applicant.CreationDateTime (DateTime) Required, 4], [Property: Applicant.EmailAddress (string), 5], [Property: Applicant.FamilyName (string), 6], [Property: Applicant.Hired (bool) Required, 7], [Property: Applicant.ModificationDateTime (DateTime) Required, 8], [Property: Applicant.Name (string), 9], }
+        SELECT a.Id, a.Address, a.Age, a.CountryOfOrigin, a.CreationDateTime, a.EmailAddress, a.FamilyName, a.Hired, a.ModificationDateTime, a.Name
+        FROM Applicants AS a), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Applicant>, 
+    Hahn.ApplicatonProcess.December2020.Data.HahnDBContext, 
+    False, 
+    False
+)'
+2021-01-23 23:52:33.681 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-23 23:52:33.737 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (53ms).
+2021-01-23 23:52:33.745 +02:00 [DBG] Opening connection to database 'HahnDB' on server '.'.
+2021-01-23 23:52:34.167 +02:00 [DBG] Opened connection to database 'HahnDB' on server '.'.
+2021-01-23 23:52:34.180 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:52:34.233 +02:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:52:34.284 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:52:34.340 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:52:34.349 +02:00 [DBG] A data reader was disposed.
+2021-01-23 23:52:34.355 +02:00 [DBG] Closing connection to database 'HahnDB' on server '.'.
+2021-01-23 23:52:34.365 +02:00 [DBG] Closed connection to database 'HahnDB' on server '.'.
+2021-01-23 23:52:34.403 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1895.3222ms.
+2021-01-23 23:52:34.407 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 23:52:34.410 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 23:52:34.410 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-23 23:52:34.410 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-23 23:52:34.411 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-23 23:52:34.411 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel, Hahn.ApplicatonProcess.December2020.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-23 23:52:34.434 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) in 2600.6044ms
+2021-01-23 23:52:34.434 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:52:34.439 +02:00 [DBG] 'HahnDBContext' disposed.
+2021-01-23 23:52:34.442 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/Applicant/GetAll - - - 200 - application/json;+charset=utf-8 2831.1461ms
+2021-01-23 23:52:42.019 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/Applicant/GetAll - -
+2021-01-23 23:52:42.019 +02:00 [DBG] The request path  does not match the path filter
+2021-01-23 23:52:42.020 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/GetAll'
+2021-01-23 23:52:42.020 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/GetAll' is valid for the request path '/Applicant/GetAll'
+2021-01-23 23:52:42.020 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:52:42.023 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:52:42.024 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:52:42.024 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:52:42.025 +02:00 [INF] Route matched with {action = "GetAll", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel]] GetAll() on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:52:42.025 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:52:42.025 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:52:42.025 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:52:42.025 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:52:42.025 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:52:42.026 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:52:42.026 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:52:42.050 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 23:52:42.080 +02:00 [INF] Entity Framework Core 5.0.2 initialized 'HahnDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-23 23:52:42.081 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-23 23:52:42.081 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-23 23:52:42.081 +02:00 [DBG] Opening connection to database 'HahnDB' on server '.'.
+2021-01-23 23:52:42.082 +02:00 [DBG] Opened connection to database 'HahnDB' on server '.'.
+2021-01-23 23:52:42.082 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:52:42.089 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:52:42.089 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:52:42.089 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:52:42.089 +02:00 [DBG] A data reader was disposed.
+2021-01-23 23:52:42.089 +02:00 [DBG] Closing connection to database 'HahnDB' on server '.'.
+2021-01-23 23:52:42.089 +02:00 [DBG] Closed connection to database 'HahnDB' on server '.'.
+2021-01-23 23:52:42.090 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 39.2814ms.
+2021-01-23 23:52:42.090 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 23:52:42.090 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 23:52:42.090 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-23 23:52:42.090 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-23 23:52:42.090 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-23 23:52:42.090 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel, Hahn.ApplicatonProcess.December2020.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-23 23:52:42.091 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) in 65.7773ms
+2021-01-23 23:52:42.091 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:52:42.092 +02:00 [DBG] 'HahnDBContext' disposed.
+2021-01-23 23:52:42.092 +02:00 [DBG] Connection ID "18158513716348321823" disconnecting.
+2021-01-23 23:52:42.092 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/Applicant/GetAll - - - 200 - application/json;+charset=utf-8 73.1380ms
+2021-01-23 23:54:19.758 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/Applicant/GetAll - -
+2021-01-23 23:54:19.759 +02:00 [DBG] The request path  does not match the path filter
+2021-01-23 23:54:19.759 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/GetAll'
+2021-01-23 23:54:19.759 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/GetAll' is valid for the request path '/Applicant/GetAll'
+2021-01-23 23:54:19.760 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:54:19.769 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:54:19.769 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:54:19.769 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:54:19.769 +02:00 [INF] Route matched with {action = "GetAll", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel]] GetAll() on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:54:19.769 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:54:19.769 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:54:19.769 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:54:19.769 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:54:19.769 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:54:19.769 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:54:19.770 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:54:19.803 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 23:54:19.824 +02:00 [INF] Entity Framework Core 5.0.2 initialized 'HahnDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-23 23:54:19.826 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-23 23:54:19.826 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-23 23:54:19.826 +02:00 [DBG] Opening connection to database 'HahnDB' on server '.'.
+2021-01-23 23:54:19.826 +02:00 [DBG] Opened connection to database 'HahnDB' on server '.'.
+2021-01-23 23:54:19.826 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:54:19.828 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:54:19.828 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:54:19.829 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:54:19.829 +02:00 [DBG] A data reader was disposed.
+2021-01-23 23:54:19.829 +02:00 [DBG] Closing connection to database 'HahnDB' on server '.'.
+2021-01-23 23:54:19.829 +02:00 [DBG] Closed connection to database 'HahnDB' on server '.'.
+2021-01-23 23:54:19.829 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 26.6956ms.
+2021-01-23 23:54:19.830 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 23:54:19.830 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 23:54:19.830 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-23 23:54:19.830 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-23 23:54:19.830 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-23 23:54:19.830 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel, Hahn.ApplicatonProcess.December2020.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-23 23:54:19.830 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) in 60.9679ms
+2021-01-23 23:54:19.830 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:54:19.831 +02:00 [DBG] 'HahnDBContext' disposed.
+2021-01-23 23:54:19.841 +02:00 [DBG] Connection ID "18230571301796315152" disconnecting.
+2021-01-23 23:54:19.841 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/Applicant/GetAll - - - 200 - application/json;+charset=utf-8 83.2921ms
+2021-01-23 23:56:25.106 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/Applicant/GetAll - -
+2021-01-23 23:56:25.107 +02:00 [DBG] The request path  does not match the path filter
+2021-01-23 23:56:25.107 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/GetAll'
+2021-01-23 23:56:25.107 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/GetAll' is valid for the request path '/Applicant/GetAll'
+2021-01-23 23:56:25.107 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:56:25.117 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:56:25.118 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:56:25.118 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:56:25.118 +02:00 [INF] Route matched with {action = "GetAll", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel]] GetAll() on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:56:25.118 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:56:25.118 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:56:25.118 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:56:25.118 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:56:25.118 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:56:25.118 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:56:25.119 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:56:25.146 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 23:56:25.147 +02:00 [INF] Entity Framework Core 5.0.2 initialized 'HahnDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-23 23:56:25.147 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-23 23:56:25.147 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-23 23:56:25.147 +02:00 [DBG] Opening connection to database 'HahnDB' on server '.'.
+2021-01-23 23:56:25.147 +02:00 [DBG] Opened connection to database 'HahnDB' on server '.'.
+2021-01-23 23:56:25.147 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:56:25.163 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:56:25.173 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:56:25.174 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:56:25.174 +02:00 [DBG] A data reader was disposed.
+2021-01-23 23:56:25.174 +02:00 [DBG] Closing connection to database 'HahnDB' on server '.'.
+2021-01-23 23:56:25.174 +02:00 [DBG] Closed connection to database 'HahnDB' on server '.'.
+2021-01-23 23:56:25.174 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 28.4224ms.
+2021-01-23 23:56:25.174 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 23:56:25.174 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 23:56:25.174 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-23 23:56:25.175 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-23 23:56:25.175 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-23 23:56:25.175 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel, Hahn.ApplicatonProcess.December2020.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-23 23:56:25.175 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) in 56.9459ms
+2021-01-23 23:56:25.175 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:56:25.187 +02:00 [DBG] Connection ID "18374686494167138313" disconnecting.
+2021-01-23 23:56:25.187 +02:00 [DBG] 'HahnDBContext' disposed.
+2021-01-23 23:56:25.187 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/Applicant/GetAll - - - 200 - application/json;+charset=utf-8 81.7707ms
+2021-01-23 23:57:03.376 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/Applicant/GetAll - -
+2021-01-23 23:57:03.376 +02:00 [DBG] The request path  does not match the path filter
+2021-01-23 23:57:03.376 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/GetAll'
+2021-01-23 23:57:03.376 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/GetAll' is valid for the request path '/Applicant/GetAll'
+2021-01-23 23:57:03.376 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:03.377 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:57:03.377 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:57:03.377 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:03.388 +02:00 [INF] Route matched with {action = "GetAll", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel]] GetAll() on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:57:03.389 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:57:03.389 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:57:03.389 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:57:03.389 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:57:03.389 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:57:03.389 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:57:03.389 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:57:03.417 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 23:57:03.417 +02:00 [INF] Entity Framework Core 5.0.2 initialized 'HahnDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-23 23:57:03.417 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-23 23:57:03.417 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-23 23:57:03.417 +02:00 [DBG] Opening connection to database 'HahnDB' on server '.'.
+2021-01-23 23:57:03.417 +02:00 [DBG] Opened connection to database 'HahnDB' on server '.'.
+2021-01-23 23:57:03.418 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:57:03.421 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:57:03.422 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:57:03.432 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:57:03.432 +02:00 [DBG] A data reader was disposed.
+2021-01-23 23:57:03.433 +02:00 [DBG] Closing connection to database 'HahnDB' on server '.'.
+2021-01-23 23:57:03.443 +02:00 [DBG] Closed connection to database 'HahnDB' on server '.'.
+2021-01-23 23:57:03.443 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 26.8329ms.
+2021-01-23 23:57:03.446 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 23:57:03.446 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 23:57:03.456 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-23 23:57:03.456 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-23 23:57:03.456 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-23 23:57:03.456 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel, Hahn.ApplicatonProcess.December2020.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-23 23:57:03.466 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) in 77.3588ms
+2021-01-23 23:57:03.466 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:03.466 +02:00 [DBG] 'HahnDBContext' disposed.
+2021-01-23 23:57:03.467 +02:00 [DBG] Connection ID "18086456109425491983" disconnecting.
+2021-01-23 23:57:03.467 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/Applicant/GetAll - - - 200 - application/json;+charset=utf-8 90.8667ms
+2021-01-23 23:57:23.188 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44355/Applicant/Add - -
+2021-01-23 23:57:23.188 +02:00 [DBG] OPTIONS requests are not supported
+2021-01-23 23:57:23.188 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 23:57:23.188 +02:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:57:23.188 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:57:23.188 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:57:23.188 +02:00 [DBG] The request is a preflight request.
+2021-01-23 23:57:23.189 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44355/Applicant/Add - - - 204 - - 1.5523ms
+2021-01-23 23:57:23.192 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44355/Applicant/Add application/json 148
+2021-01-23 23:57:23.192 +02:00 [DBG] POST requests are not supported
+2021-01-23 23:57:23.192 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 23:57:23.192 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/Add' is valid for the request path '/Applicant/Add'
+2021-01-23 23:57:23.192 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:23.193 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:57:23.193 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:57:23.193 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:23.209 +02:00 [INF] Route matched with {action = "Add", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel) on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:57:23.209 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:57:23.209 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:57:23.209 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:57:23.209 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:57:23.209 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:57:23.210 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:57:23.210 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:57:23.218 +02:00 [DBG] Attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' ...
+2021-01-23 23:57:23.221 +02:00 [DBG] Attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' using the name '' in request data ...
+2021-01-23 23:57:23.222 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-01-23 23:57:23.233 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'
+2021-01-23 23:57:23.234 +02:00 [DBG] Done attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:57:23.234 +02:00 [DBG] Done attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:57:23.234 +02:00 [DBG] Attempting to validate the bound parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' ...
+2021-01-23 23:57:23.261 +02:00 [DBG] Done attempting to validate the bound parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:57:23.288 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 23:57:29.318 +02:00 [ERR] One or more errors occurred. (The SSL connection could not be established, see inner exception.)
+2021-01-23 23:57:29.318 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 6029.804ms.
+2021-01-23 23:57:29.318 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 23:57:29.318 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 23:57:29.319 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2021-01-23 23:57:29.319 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2021-01-23 23:57:29.319 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-23 23:57:29.325 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application) in 6115.782ms
+2021-01-23 23:57:29.325 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:29.326 +02:00 [DBG] Connection ID "18086456109425491985" disconnecting.
+2021-01-23 23:57:29.326 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44355/Applicant/Add application/json 148 - 500 - application/problem+json;+charset=utf-8 6133.8541ms
+2021-01-23 23:57:36.139 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44355/Applicant/GetAll - -
+2021-01-23 23:57:36.140 +02:00 [DBG] The request path  does not match the path filter
+2021-01-23 23:57:36.140 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/GetAll'
+2021-01-23 23:57:36.140 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/GetAll' is valid for the request path '/Applicant/GetAll'
+2021-01-23 23:57:36.140 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:36.140 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:57:36.140 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:57:36.140 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:36.140 +02:00 [INF] Route matched with {action = "GetAll", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel]] GetAll() on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:57:36.140 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:57:36.140 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:57:36.140 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:57:36.140 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:57:36.140 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:57:36.140 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:57:36.141 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:57:36.170 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"
+2021-01-23 23:57:36.170 +02:00 [INF] Entity Framework Core 5.0.2 initialized 'HahnDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-23 23:57:36.171 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2021-01-23 23:57:36.171 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2021-01-23 23:57:36.171 +02:00 [DBG] Opening connection to database 'HahnDB' on server '.'.
+2021-01-23 23:57:36.171 +02:00 [DBG] Opened connection to database 'HahnDB' on server '.'.
+2021-01-23 23:57:36.171 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:57:36.173 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Address], [a].[Age], [a].[CountryOfOrigin], [a].[CreationDateTime], [a].[EmailAddress], [a].[FamilyName], [a].[Hired], [a].[ModificationDateTime], [a].[Name]
+FROM [Applicants] AS [a]
+2021-01-23 23:57:36.174 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:57:36.174 +02:00 [DBG] Context 'HahnDBContext' started tracking 'Applicant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2021-01-23 23:57:36.174 +02:00 [DBG] A data reader was disposed.
+2021-01-23 23:57:36.174 +02:00 [DBG] Closing connection to database 'HahnDB' on server '.'.
+2021-01-23 23:57:36.174 +02:00 [DBG] Closed connection to database 'HahnDB' on server '.'.
+2021-01-23 23:57:36.175 +02:00 [INF] Executed action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.85ms.
+2021-01-23 23:57:36.175 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-01-23 23:57:36.175 +02:00 [DBG] No information found on request to perform content negotiation.
+2021-01-23 23:57:36.175 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-01-23 23:57:36.175 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-01-23 23:57:36.175 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-01-23 23:57:36.175 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel, Hahn.ApplicatonProcess.December2020.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-01-23 23:57:36.175 +02:00 [INF] Executed action Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application) in 34.9107ms
+2021-01-23 23:57:36.175 +02:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.GetAll (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:57:36.177 +02:00 [DBG] 'HahnDBContext' disposed.
+2021-01-23 23:57:36.177 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44355/Applicant/GetAll - - - 200 - application/json;+charset=utf-8 37.7451ms
+2021-01-23 23:58:12.365 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44355/Applicant/Add - -
+2021-01-23 23:58:12.365 +02:00 [DBG] OPTIONS requests are not supported
+2021-01-23 23:58:12.365 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 23:58:12.365 +02:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2021-01-23 23:58:12.365 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:58:12.365 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:58:12.365 +02:00 [DBG] The request is a preflight request.
+2021-01-23 23:58:12.366 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44355/Applicant/Add - - - 204 - - 0.7008ms
+2021-01-23 23:58:12.371 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44355/Applicant/Add application/json 147
+2021-01-23 23:58:12.371 +02:00 [DBG] POST requests are not supported
+2021-01-23 23:58:12.371 +02:00 [DBG] 1 candidate(s) found for the request path '/Applicant/Add'
+2021-01-23 23:58:12.371 +02:00 [DBG] Endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)' with route pattern 'Applicant/Add' is valid for the request path '/Applicant/Add'
+2021-01-23 23:58:12.371 +02:00 [DBG] Request matched endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:58:12.371 +02:00 [DBG] The request has an origin header: 'http://localhost:2112'.
+2021-01-23 23:58:12.371 +02:00 [INF] CORS policy execution successful.
+2021-01-23 23:58:12.371 +02:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application)'
+2021-01-23 23:58:12.371 +02:00 [INF] Route matched with {action = "Add", controller = "Applicant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel) on controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application).
+2021-01-23 23:58:12.371 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-01-23 23:58:12.371 +02:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-01-23 23:58:12.371 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Hahn.ApplicatonProcess.Application.ActionFilters.ValidationFilter"]
+2021-01-23 23:58:12.372 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-01-23 23:58:12.372 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-01-23 23:58:12.372 +02:00 [DBG] Executing controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:58:12.372 +02:00 [DBG] Executed controller factory for controller Hahn.ApplicatonProcess.Application.Controllers.ApplicantController (Hahn.ApplicatonProcess.Application)
+2021-01-23 23:58:12.372 +02:00 [DBG] Attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' ...
+2021-01-23 23:58:12.373 +02:00 [DBG] Attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' using the name '' in request data ...
+2021-01-23 23:58:12.373 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-01-23 23:58:12.373 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'
+2021-01-23 23:58:12.373 +02:00 [DBG] Done attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:58:12.374 +02:00 [DBG] Done attempting to bind parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:58:12.374 +02:00 [DBG] Attempting to validate the bound parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel' ...
+2021-01-23 23:58:12.374 +02:00 [DBG] Done attempting to validate the bound parameter 'applicantViewModel' of type 'Hahn.ApplicatonProcess.December2020.Shared.ViewModels.ApplicantViewModel'.
+2021-01-23 23:58:12.433 +02:00 [INF] Executing action method Hahn.ApplicatonProcess.Application.Controllers.ApplicantController.Add (Hahn.ApplicatonProcess.Application) - Validation state: "Valid"

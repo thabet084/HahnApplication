@@ -72,6 +72,19 @@ namespace Hahn.ApplicatonProcess.Application.Controllers
             return Ok(applicantViewModel);
         }
 
+        [HttpGet]
+        public async Task<ActionResult<ApplicantViewModel>> GetAll()
+        {
+            var applicantsViewModel = await _applicantService.GetAll();
+
+            if (applicantsViewModel == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(applicantsViewModel);
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, ApplicantViewModel applicantViewModel)
         {

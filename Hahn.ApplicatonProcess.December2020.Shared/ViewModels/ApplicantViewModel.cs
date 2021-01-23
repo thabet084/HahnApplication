@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Hahn.ApplicatonProcess.December2020.Shared.Resources;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Hahn.ApplicatonProcess.December2020.Shared.ViewModels
@@ -8,6 +10,8 @@ namespace Hahn.ApplicatonProcess.December2020.Shared.ViewModels
     public class ApplicantViewModel
     {
         public int Id { get; set; }
+
+
         public string Name { get; set; }
 
         public string FamilyName { get; set; }

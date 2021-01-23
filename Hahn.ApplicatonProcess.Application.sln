@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicatonProcess.Application", "Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application.csproj", "{890458FB-D6DF-4585-8D99-184CF202A6CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicatonProcess.Application", "Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.Application.csproj", "{890458FB-D6DF-4585-8D99-184CF202A6CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicatonProcess.December2020.Data", "Hahn.ApplicatonProcess.December2020.Data\Hahn.ApplicatonProcess.December2020.Data.csproj", "{63460E9D-00B6-4A1F-A5D9-BFAD492A893B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicatonProcess.December2020.Data", "Hahn.ApplicatonProcess.December2020.Data\Hahn.ApplicatonProcess.December2020.Data.csproj", "{63460E9D-00B6-4A1F-A5D9-BFAD492A893B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicatonProcess.December2020.Domain", "Hahn.ApplicatonProcess.December2020.Domain\Hahn.ApplicatonProcess.December2020.Domain.csproj", "{ACEE7F02-DDF2-4289-9396-1E4D3D3D0018}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicatonProcess.December2020.Domain", "Hahn.ApplicatonProcess.December2020.Domain\Hahn.ApplicatonProcess.December2020.Domain.csproj", "{ACEE7F02-DDF2-4289-9396-1E4D3D3D0018}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{EC86CC1C-91DE-471B-B06E-BDDF872CE52C}"
 EndProject
@@ -15,9 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{2050FBB7-5F77-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{9F98D4C6-8B31-467C-A663-04A6B298790E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicatonProcess.December2020.Shared", "Hahn.ApplicatonProcess.December2020.Shared\Hahn.ApplicatonProcess.December2020.Shared.csproj", "{DBB9B701-F19D-4855-BB92-5A9DAABA39B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicatonProcess.December2020.Shared", "Hahn.ApplicatonProcess.December2020.Shared\Hahn.ApplicatonProcess.December2020.Shared.csproj", "{DBB9B701-F19D-4855-BB92-5A9DAABA39B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicatonProcess.December2020.Services", "Hahn.ApplicatonProcess.December2020.Services\Hahn.ApplicatonProcess.December2020.Services.csproj", "{D11754E8-8124-42BF-AE20-498E866A88BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.ApplicatonProcess.December2020.Services", "Hahn.ApplicatonProcess.December2020.Services\Hahn.ApplicatonProcess.December2020.Services.csproj", "{D11754E8-8124-42BF-AE20-498E866A88BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9A2DDADB-8207-4D03-9ACD-850EE37B5C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hahn.ApplicatonProcess.December2020.Tests", "Hahn.ApplicatonProcess.December2020.Tests\Hahn.ApplicatonProcess.December2020.Tests.csproj", "{186B6F4F-A6B3-4583-B242-89F629A2D611}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,10 @@ Global
 		{D11754E8-8124-42BF-AE20-498E866A88BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11754E8-8124-42BF-AE20-498E866A88BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11754E8-8124-42BF-AE20-498E866A88BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186B6F4F-A6B3-4583-B242-89F629A2D611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186B6F4F-A6B3-4583-B242-89F629A2D611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186B6F4F-A6B3-4583-B242-89F629A2D611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186B6F4F-A6B3-4583-B242-89F629A2D611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +62,7 @@ Global
 		{ACEE7F02-DDF2-4289-9396-1E4D3D3D0018} = {EC86CC1C-91DE-471B-B06E-BDDF872CE52C}
 		{DBB9B701-F19D-4855-BB92-5A9DAABA39B1} = {9F98D4C6-8B31-467C-A663-04A6B298790E}
 		{D11754E8-8124-42BF-AE20-498E866A88BA} = {2050FBB7-5F77-4FB2-8DEB-B9B7EBD2EC86}
+		{186B6F4F-A6B3-4583-B242-89F629A2D611} = {9A2DDADB-8207-4D03-9ACD-850EE37B5C3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {374593F0-086F-4F92-A777-BFD833419241}

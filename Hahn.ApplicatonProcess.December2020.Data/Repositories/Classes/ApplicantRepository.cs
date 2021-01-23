@@ -41,13 +41,23 @@ namespace Hahn.ApplicatonProcess.December2020.Data.Repositories.Classes
             &&( excludedId == null?true:a.Id!=excludedId));
             
         }
-
         public async Task<ApplicantViewModel> Get(int id)
         {
             var applicant = await _context.Applicants.FindAsync(id);
 
-            if(applicant!=null)
-            return _mapper.Map<ApplicantViewModel>(applicant);
+            if (applicant != null)
+                return _mapper.Map<ApplicantViewModel>(applicant);
+
+            return null;
+
+        }
+
+        public async Task<List<ApplicantViewModel>> GetAll()
+        {
+            var applicants = await _context.Applicants.ToListAsync();
+
+            if(applicants!=null)
+            return _mapper.Map<List<ApplicantViewModel>>(applicants);
 
             return null;
             
