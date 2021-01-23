@@ -132,4 +132,7 @@
   <data name="Validation_MinLenght5" xml:space="preserve">
     <value>Min length is 5</value>
   </data>
+  <data name="Validation_ValidCountry" xml:space="preserve">
+    <value>Should be valid country</value>
+  </data>
 </root>

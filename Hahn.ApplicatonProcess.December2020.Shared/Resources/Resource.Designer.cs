@@ -104,5 +104,14 @@ namespace Hahn.ApplicatonProcess.December2020.Shared.Resources {
                 return ResourceManager.GetString("Validation_MinLenght5", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Should be valid country.
+        /// </summary>
+        public static string Validation_ValidCountry {
+            get {
+                return ResourceManager.GetString("Validation_ValidCountry", resourceCulture);
+            }
+        }
     }
 }

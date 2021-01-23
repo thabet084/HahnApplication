@@ -22,7 +22,7 @@ namespace Hahn.ApplicatonProcess.December2020.Shared.Validators
             {
                 if (!CountryValidation.Validate(country).Result)
                 {
-                    context.AddFailure("Must be valid country");
+                    context.AddFailure(Resource.Validation_ValidCountry);
                 }
             });
         }
