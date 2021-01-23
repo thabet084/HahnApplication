@@ -18,14 +18,14 @@ namespace Hahn.ApplicatonProcess.December2020.Shared.Validators
 			RuleFor(x => x.EmailAddress).EmailAddress().WithMessage(Resource.Validation_EmailAddress);
 			RuleFor(x => x.Age).InclusiveBetween(20, 60).WithMessage(Resource.Validation_Age20To60);
 
-			//RuleFor(x => x.CountryOfOrigin).Custom((country,context)=>
-			//{
-			//	if(! CountryValidation.Validate(country).Result)
-   //             {
-			//		context.AddFailure("Must be valid country");
-   //             }
-			//});
-		}
+            RuleFor(x => x.CountryOfOrigin).Custom((country, context) =>
+            {
+                if (!CountryValidation.Validate(country).Result)
+                {
+                    context.AddFailure("Must be valid country");
+                }
+            });
+        }
 
 
 	}
