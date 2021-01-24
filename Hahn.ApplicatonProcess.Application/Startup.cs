@@ -5,6 +5,7 @@ using Hahn.ApplicatonProcess.Application.ActionFilters;
 using Hahn.ApplicatonProcess.December2020.Data;
 using Hahn.ApplicatonProcess.December2020.Data.Repositories.Classes;
 using Hahn.ApplicatonProcess.December2020.Data.Repositories.Interfaces;
+using Hahn.ApplicatonProcess.December2020.Domain.Entities;
 using Hahn.ApplicatonProcess.December2020.Services.Classes;
 using Hahn.ApplicatonProcess.December2020.Services.Interfaces;
 using Hahn.ApplicatonProcess.December2020.Shared.Validators;
@@ -58,8 +59,7 @@ namespace Hahn.ApplicatonProcess.Application
 
             //Database Context
             services.AddDbContext<HahnDBContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            options.UseInMemoryDatabase("HahnDB"));
 
             services.AddCors(options =>
             {
@@ -110,6 +110,10 @@ namespace Hahn.ApplicatonProcess.Application
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hahn.ApplicatonProcess.Application v1"));
             }
 
+
+            var context = app.ApplicationServices.GetService<HahnDBContext>();
+            AddTestData(context);
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -123,6 +127,46 @@ namespace Hahn.ApplicatonProcess.Application
             });
         }
 
-       
+        private static void AddTestData(HahnDBContext context)
+        {
+            var testApplicant1 = new Applicant
+            {
+                Id = 1,
+
+                Name = "Mohammed",
+                FamilyName = "Thabet",
+                Address="Cairo",
+                Age=30,
+                CountryOfOrigin="Egypt",
+                CreationDateTime=DateTime.Now,
+                ModificationDateTime=DateTime.Now,
+                EmailAddress="thabet084@hotmail.com",
+                Hired=true
+
+            };
+
+            context.Applicants.Add(testApplicant1);
+
+            var testApplicant2 = new Applicant
+            {
+                Id = 2,
+
+                Name = "Yassin",
+                FamilyName = "Thabet",
+                Address = "Cairo",
+                Age = 30,
+                CountryOfOrigin = "Egypt",
+                CreationDateTime = DateTime.Now,
+                ModificationDateTime = DateTime.Now,
+                EmailAddress = "yassin@hotmail.com",
+                Hired = true
+
+            };
+
+            context.Applicants.Add(testApplicant2);
+
+            context.SaveChanges();
+        }
+
     }
 }

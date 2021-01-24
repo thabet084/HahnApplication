@@ -8,7 +8,7 @@ namespace Hahn.ApplicatonProcess.December2020.Data
     public class HahnDBContext: DbContext
     {
 
-        public HahnDBContext(DbContextOptions options) : base(options)
+        public HahnDBContext(DbContextOptions<HahnDBContext> options) : base(options)
         {
 
         }
