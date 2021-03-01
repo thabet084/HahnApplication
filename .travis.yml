@@ -1,32 +1,11 @@
 language: csharp
 mono: none
-env:
-  global:
-    - secure: akS9fOsnDR5ANrd0ZxAbJL9djYbJiI7QyLD8vR9o4oZ8ko46rh3TX8HGqPy8uFJjP8nkh5OfjjVeGW7r0guqo2stzYAm4AXocVg+vkpx3i0IAp2T08L3hOdJhwOIeEbqCYxqeWR+92ohT0YIXjjo3FjrrzV0Z9S0NtfHle4bClewg4Ookbx9hufiT+DZu+4ofH+o8VP/+V8JWYxElCWmvpmaghYh4uySTjuGkjtpplPAeWg5yUuzyzrseqW8mS80rbamkRpPQrdXG14CWgtU4LLU82Puhv/YaABkZmmbBw3UVAtL/qClGYhaoBUVQveVW1z4NuEIgzZ+a8DC4IuvGaocS/4WmqDE17neysJw0gA+AzbHaVLAhDLp4xppMIojpaOB0Hs6fBVL5oXUarGYR7PQH1Pu+br0Be+jbvnirQMRY4XOM6Holn4+NW8gmoWMocdjE1Fy+0LI3EkP2eTV6f5QypKRxQq6br/sBIz09ogRt30CFD4Tqycp2kyvGX8QB3Bu3R1Mh0fr+vVbkkMU2hOY4GTh8ENNx1DgVjb6nDV0Ht4OSPjNjgSjlU/MzDLtcUvSU4nUxDrrc8pkjvnp04+x0tps0KrWa2kSwrJMLwg20ZXsAI5PWtKMBnIaYcT7P82Ear1vcQFFK70EiPlCoC/vUxsAqMhRPRfenqw8otc=
-    - secure: qckTbI3UkOtVprXV3RD12PjUQk/4dQWqwozYG1QDlAgmTHFW6eVmCEKBl8Yh4asQqNKyAObqU/v3WHqpy34XVwgHsbRImm7uxwRDsU1tAUHdYWBt4Rq0WV+TjMl3w12slZUMO3ji3ZWBcXusSJOcd5umkMqJYN5bfDaRM8wRwmkSvh7DoXQn+JsKQ1rTdYiF2M+N4zfwdN256UcSusyJKqnhkneADMDeyAl02mWb2lcuwX7M4350Ejs3SMaAwnhWMLGczvXUfmbscu0Lda03a5j95jqvflIgZIq7BPjHfAX+DAADGD8bvNDHojylQlb9kVEZ3rQdqY2ucIWDFZOnrCykcDLoz2DDxde0waW4fbuwubhkor9tsW39uUhmxSlUTwgt7gkBKEo0UMOE0YoF7g4auPI5uCy6rVwxMKDsHVKTB1lpsAqSgAzj2xkHFM7lPKxIkKlVuAY4eAuY31cmChseBAWHfIzzLkhib6A6nqjGoNg+mK6T5Da5gtGFVUI18Omadzab1Msq/yzFoCH8TcKx8Y2uTv48ua3TBGzgWJnqYHAx6GAsMz0PRudfucAmflk0t1EMM/HHKpv/fBB18qLrGVCCG4yFZPPlMQ0DP0MFKzfdunz3b7KXHhbq3WgLPjvZ3HWMAYSlt5CXy2BsXULyPRFa7YOJkIefCzKf4+c=
+
 dotnet: 5.0
-before_install:
-  - python --version
-  - sudo apt-get remove python2.7
-  - sudo apt-get update
-  - sudo apt -y install python3
-  - sudo apt -y install python3-pip
-  - sudo apt-get install python3-setuptools  
-  - pip3 install boto3==1.14.63
-  - sudo apt -y install awscli
-script:
-  - python --version
-  - pip3 --version
-  - aws --version
-  - dotnet restore
-  - dotnet test /p:CollectCoverage=true
-  - cd Hahn.ApplicatonProcess.Application
-  - mkdir api
-  - dotnet publish /p:configuration="Release" --output "./api/"
-  - zip -r api.zip ./api
-  - aws configure set default.aws_access_key_id "$aws_id"
-  - aws configure set default.aws_secret_access_key "$aws_key"
-  - aws configure set default.region us-east-2
-after_success:
-  - aws s3 cp ./api.zip s3://geekinside-gama-cd/api.zip
-  - python3 ../refreshAZ.py
+
+
+ 
+ 
+script: 
+ - dotnet restore
+ - dotnet test /p:CollectCoverage=true
