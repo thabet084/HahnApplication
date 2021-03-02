@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Hahn.ApplicatonProcess.December2020.Services.Classes
 {
+    /// <summary>
+    /// application service
+    /// </summary>
     public class ApplicantService: IApplicantService
     {
         private readonly IApplicantRepository _applicantRepository;
