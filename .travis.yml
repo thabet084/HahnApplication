@@ -1,11 +1,28 @@
 language: csharp
 mono: none
-
 dotnet: 5.0
-
-
- 
- 
-script: 
- - dotnet restore
- - dotnet test /p:CollectCoverage=true
+before_install:
+  - python --version
+  - sudo apt-get remove python2.7
+  - sudo apt-get update
+  - sudo apt -y install python3
+  - sudo apt -y install python3-pip
+  - sudo apt-get install python3-setuptools  
+  - pip3 install boto3==1.14.63
+  - sudo apt -y install awscli
+script:
+  - python --version
+  - pip3 --version
+  - aws --version
+  - dotnet restore
+  - dotnet test /p:CollectCoverage=true
+  - cd Hahn.ApplicatonProcess.Application
+  - mkdir api
+  - dotnet publish /p:configuration="Release" --output "./api/"
+  - zip -r api.zip ./api
+  - aws configure set default.aws_access_key_id "$aws_id"
+  - aws configure set default.aws_secret_access_key "$aws_key"
+  - aws configure set default.region us-east-2
+after_success:
+  - aws s3 cp ./api.zip s3://testbucket06012020/api.zip
+  - python3 ../refreshAZ.py
